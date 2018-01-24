@@ -1,0 +1,52 @@
+
+
+
+
+
+
+#pane{
+	-fx-background-color: radial-gradient(radius 100%, darkgray, gray, black) ;
+	-fx-pref-width:800;
+	-fx-pref-height:600;
+}
+
+#rightBox{
+		-fx-background-color: linear-gradient(from 0px 0px to 100px 600px, gray 50%, darkgray);
+		-fx-pref-width: 200;
+		-fx-pref-height: 500;
+		-fx-translate-x: 500;
+		-fx-translate-y: 50;
+		-fx-effect: dropshadow(gaussian, red, 10, .6, .1 ,.1);
+		-fx-alignment: top-center;
+	
+}
+
+#randomizeButton{
+	
+	-fx-translate-x: 200;
+	-fx-translate-y: 250;
+	-fx-pref-height: 100;
+	-fx-font-size: 20;
+	
+	
+}
+
+#randomizeButton:hover{
+	-fx-translate-x: 200;
+	-fx-translate-y: 250;
+	-fx-pref-height: 100;
+	
+}
+
+#randomizeButton:clicked{
+	-fx-translate-x: 200;
+	-fx-translate-y: 250;
+	-fx-pref-height: 100;
+	
+}
+
+#txt{
+	-fx-fill: white;
+	-fx-font-size: 25;
+	-fx-effect: dropshadow(gaussian, black, 10, .6, 5, 5);
+}
